@@ -1,5 +1,5 @@
 # Parallel-Programming
-CISC-372 projects in C+= and C using OpenMP, PThreads, and MPI parallel libraries. Fractal Image creation using CUDA and Nvidia GPUs. Some Projects used the *Darwin HPC CLuster* which is the High Performance Computer (HPC) at the University of Delaware, where you can create compute clusters with specific hardware configurations.
+CISC-372 projects in C++ and C using OpenMP, PThreads, and MPI parallel libraries. Fractal Image creation using CUDA and Nvidia GPUs. Some Projects used the *Darwin HPC CLuster* which is the High Performance Computer (HPC) at the University of Delaware, where you can create compute clusters with specific hardware configurations.
 
 
 ## Assignment 1
