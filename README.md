@@ -40,4 +40,4 @@ This assignment involves parallelizing a serial program that generates a sequenc
 - Visualizes the Mandelbrot set, showcasing load imbalance and parallel workload distribution.
 - Includes hands-on experience with high-performance computing (HPC) clusters (DARWIN).
 
-*Technologies Used: C, CUDA, Nvidia GPU, nvcc compiler, Darwin HPC Cluster, ImageMagick*
+*Technologies Used: C, C++, CUDA, Nvidia GPU, nvcc compiler, Darwin HPC Cluster, ImageMagick*
