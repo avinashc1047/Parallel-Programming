@@ -1,0 +1,32 @@
+--Pthread - trapezoids--
+
+[avinashc@r1n04 histogram_equalization]$ ./pthread_trap
+Enter a, b, n, and thread count
+0
+3
+1000000
+1
+With n = 1000000 trapezoids, our estimate
+of the integral from 0.000000 to 3.000000 = 8.999999999876772
+Calculations took 0.006239 seconds
+
+[avinashc@r1n04 histogram_equalization]$ ./pthread_trap
+Enter a, b, n, and thread count
+0
+3
+1000000
+4
+With n = 1000000 trapezoids, our estimate
+of the integral from 0.000000 to 3.000000 = 8.999999999975522
+Calculations took 0.002747 seconds
+
+
+--OpenMP - Histogram--
+
+[avinashc@r1n04 histogram_equalization]$ srun ./omp_he flower.png
+Image size is 1600 by 1200.
+Histogram equalization took 0.020956 seconds
+
+[avinashc@r1n04 histogram_equalization]$ srun ./omp_he bridge.png
+Image size is 2736 by 1824.
+Histogram equalization took 0.058550 seconds
